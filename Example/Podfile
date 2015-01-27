@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'Example'
+workspace '../RSTDataSourceKit'
+
+platform :ios, '8.0'
+
+pod 'RSTDataSourceKit', :path => '../'
