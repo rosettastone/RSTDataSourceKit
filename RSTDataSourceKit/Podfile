@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'RSTDataSourceKit'
+workspace '../RSTDataSourceKit'
+
+platform :ios, '8.0'
+
+target :RSTDataSourceKitTests, :exclusive => true do
+    pod 'OCMock', '~> 3.0'
+end
