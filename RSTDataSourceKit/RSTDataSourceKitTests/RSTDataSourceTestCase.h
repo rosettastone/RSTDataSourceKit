@@ -16,15 +16,20 @@
 //  Released under a BSD license: http://opensource.org/licenses/BSD-3-Clause
 //
 
-#import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+@import XCTest;
+@import UIKit;
+
 #import <OCMock/OCMock.h>
 
-@interface RSTDataSourceKitTests : XCTestCase
 
-@end
+@interface RSTDataSourceTestCase : XCTestCase
 
-@implementation RSTDataSourceKitTests
+@property (nonatomic, strong) NSArray *fakeItems;
 
+@property (nonatomic, strong) NSString *fakeReuseIdentifier;
+
+@property (strong, nonatomic) NSIndexPath *fakeIndexPath;
+
+@property (nonatomic, strong) XCTestExpectation *configurationBlockExpectation;
 
 @end

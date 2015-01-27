@@ -10,7 +10,6 @@
 		018784AD82870249D3615867 /* libPods-RSTDataSourceKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229666F4BB68396E9B0BA0D4 /* libPods-RSTDataSourceKitTests.a */; };
 		88D911271A774B2300520FB6 /* RSTDataSourceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911261A774B2300520FB6 /* RSTDataSourceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88D9112D1A774B2300520FB6 /* RSTDataSourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D911211A774B2300520FB6 /* RSTDataSourceKit.framework */; };
-		88D911341A774B2300520FB6 /* RSTDataSourceKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911331A774B2300520FB6 /* RSTDataSourceKitTests.m */; };
 		88D9117E1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9116F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h */; };
 		88D9117F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911701A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m */; };
 		88D911801A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911711A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h */; };
@@ -26,6 +25,11 @@
 		88D9118A1A7755E500520FB6 /* RSTTableViewCellDequeuing.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9117B1A7755E500520FB6 /* RSTTableViewCellDequeuing.h */; };
 		88D9118B1A7755E500520FB6 /* RSTTableViewCellFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9117C1A7755E500520FB6 /* RSTTableViewCellFactory.h */; };
 		88D9118C1A7755E500520FB6 /* RSTTableViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9117D1A7755E500520FB6 /* RSTTableViewCellFactory.m */; };
+		88D911931A7757F400520FB6 /* RSTCollectionViewArrayDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9118D1A7757F400520FB6 /* RSTCollectionViewArrayDataSourceTests.m */; };
+		88D911941A7757F400520FB6 /* RSTCollectionViewCellFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9118E1A7757F400520FB6 /* RSTCollectionViewCellFactoryTests.m */; };
+		88D911951A7757F400520FB6 /* RSTDataSourceTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911901A7757F400520FB6 /* RSTDataSourceTestCase.m */; };
+		88D911961A7757F400520FB6 /* RSTTableViewArrayDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911911A7757F400520FB6 /* RSTTableViewArrayDataSourceTests.m */; };
+		88D911971A7757F400520FB6 /* RSTTableViewCellFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911921A7757F400520FB6 /* RSTTableViewCellFactoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +50,6 @@
 		88D911261A774B2300520FB6 /* RSTDataSourceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTDataSourceKit.h; sourceTree = "<group>"; };
 		88D9112C1A774B2300520FB6 /* RSTDataSourceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSTDataSourceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D911321A774B2300520FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88D911331A774B2300520FB6 /* RSTDataSourceKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTDataSourceKitTests.m; sourceTree = "<group>"; };
 		88D9116F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTCollectionViewArrayDataSource.h; sourceTree = "<group>"; };
 		88D911701A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTCollectionViewArrayDataSource.m; sourceTree = "<group>"; };
 		88D911711A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTCollectionViewCellDequeuing.h; sourceTree = "<group>"; };
@@ -62,6 +65,12 @@
 		88D9117B1A7755E500520FB6 /* RSTTableViewCellDequeuing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTTableViewCellDequeuing.h; sourceTree = "<group>"; };
 		88D9117C1A7755E500520FB6 /* RSTTableViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTTableViewCellFactory.h; sourceTree = "<group>"; };
 		88D9117D1A7755E500520FB6 /* RSTTableViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTTableViewCellFactory.m; sourceTree = "<group>"; };
+		88D9118D1A7757F400520FB6 /* RSTCollectionViewArrayDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTCollectionViewArrayDataSourceTests.m; sourceTree = "<group>"; };
+		88D9118E1A7757F400520FB6 /* RSTCollectionViewCellFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTCollectionViewCellFactoryTests.m; sourceTree = "<group>"; };
+		88D9118F1A7757F400520FB6 /* RSTDataSourceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTDataSourceTestCase.h; sourceTree = "<group>"; };
+		88D911901A7757F400520FB6 /* RSTDataSourceTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTDataSourceTestCase.m; sourceTree = "<group>"; };
+		88D911911A7757F400520FB6 /* RSTTableViewArrayDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTTableViewArrayDataSourceTests.m; sourceTree = "<group>"; };
+		88D911921A7757F400520FB6 /* RSTTableViewCellFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTTableViewCellFactoryTests.m; sourceTree = "<group>"; };
 		B763ECBCC00A2C5E8C2F04FA /* Pods-RSTDataSourceKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSTDataSourceKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSTDataSourceKitTests/Pods-RSTDataSourceKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,7 +166,12 @@
 		88D911301A774B2300520FB6 /* RSTDataSourceKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				88D911331A774B2300520FB6 /* RSTDataSourceKitTests.m */,
+				88D9118D1A7757F400520FB6 /* RSTCollectionViewArrayDataSourceTests.m */,
+				88D9118E1A7757F400520FB6 /* RSTCollectionViewCellFactoryTests.m */,
+				88D9118F1A7757F400520FB6 /* RSTDataSourceTestCase.h */,
+				88D911901A7757F400520FB6 /* RSTDataSourceTestCase.m */,
+				88D911911A7757F400520FB6 /* RSTTableViewArrayDataSourceTests.m */,
+				88D911921A7757F400520FB6 /* RSTTableViewCellFactoryTests.m */,
 				88D911311A774B2300520FB6 /* Supporting Files */,
 			);
 			path = RSTDataSourceKitTests;
@@ -335,7 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D911341A774B2300520FB6 /* RSTDataSourceKitTests.m in Sources */,
+				88D911931A7757F400520FB6 /* RSTCollectionViewArrayDataSourceTests.m in Sources */,
+				88D911971A7757F400520FB6 /* RSTTableViewCellFactoryTests.m in Sources */,
+				88D911941A7757F400520FB6 /* RSTCollectionViewCellFactoryTests.m in Sources */,
+				88D911961A7757F400520FB6 /* RSTTableViewArrayDataSourceTests.m in Sources */,
+				88D911951A7757F400520FB6 /* RSTDataSourceTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
