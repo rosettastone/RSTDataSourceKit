@@ -16,8 +16,13 @@
 //  Released under a BSD license: http://opensource.org/licenses/BSD-3-Clause
 //
 
-#import <UIKit/UIKit.h>
+#import "TableViewController.h"
 
-@interface ViewController : UIViewController
+@implementation TableViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
 
 @end
