@@ -11,6 +11,21 @@
 		88D911271A774B2300520FB6 /* RSTDataSourceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911261A774B2300520FB6 /* RSTDataSourceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88D9112D1A774B2300520FB6 /* RSTDataSourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D911211A774B2300520FB6 /* RSTDataSourceKit.framework */; };
 		88D911341A774B2300520FB6 /* RSTDataSourceKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911331A774B2300520FB6 /* RSTDataSourceKitTests.m */; };
+		88D9117E1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9116F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h */; };
+		88D9117F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911701A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m */; };
+		88D911801A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911711A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h */; };
+		88D911811A7755E500520FB6 /* RSTCollectionViewCellFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911721A7755E500520FB6 /* RSTCollectionViewCellFactory.h */; };
+		88D911821A7755E500520FB6 /* RSTCollectionViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911731A7755E500520FB6 /* RSTCollectionViewCellFactory.m */; };
+		88D911831A7755E500520FB6 /* RSTDataSourceBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911741A7755E500520FB6 /* RSTDataSourceBlocks.h */; };
+		88D911841A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911751A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.h */; };
+		88D911851A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911761A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.m */; };
+		88D911861A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911771A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.h */; };
+		88D911871A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911781A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.m */; };
+		88D911881A7755E500520FB6 /* RSTTableViewArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D911791A7755E500520FB6 /* RSTTableViewArrayDataSource.h */; };
+		88D911891A7755E500520FB6 /* RSTTableViewArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9117A1A7755E500520FB6 /* RSTTableViewArrayDataSource.m */; };
+		88D9118A1A7755E500520FB6 /* RSTTableViewCellDequeuing.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9117B1A7755E500520FB6 /* RSTTableViewCellDequeuing.h */; };
+		88D9118B1A7755E500520FB6 /* RSTTableViewCellFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D9117C1A7755E500520FB6 /* RSTTableViewCellFactory.h */; };
+		88D9118C1A7755E500520FB6 /* RSTTableViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9117D1A7755E500520FB6 /* RSTTableViewCellFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +47,21 @@
 		88D9112C1A774B2300520FB6 /* RSTDataSourceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSTDataSourceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D911321A774B2300520FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D911331A774B2300520FB6 /* RSTDataSourceKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTDataSourceKitTests.m; sourceTree = "<group>"; };
+		88D9116F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTCollectionViewArrayDataSource.h; sourceTree = "<group>"; };
+		88D911701A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTCollectionViewArrayDataSource.m; sourceTree = "<group>"; };
+		88D911711A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTCollectionViewCellDequeuing.h; sourceTree = "<group>"; };
+		88D911721A7755E500520FB6 /* RSTCollectionViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTCollectionViewCellFactory.h; sourceTree = "<group>"; };
+		88D911731A7755E500520FB6 /* RSTCollectionViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTCollectionViewCellFactory.m; sourceTree = "<group>"; };
+		88D911741A7755E500520FB6 /* RSTDataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTDataSourceBlocks.h; sourceTree = "<group>"; };
+		88D911751A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTFetchedResultsControllerDelegate.h; sourceTree = "<group>"; };
+		88D911761A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTFetchedResultsControllerDelegate.m; sourceTree = "<group>"; };
+		88D911771A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTFetchedResultsTableViewDataSource.h; sourceTree = "<group>"; };
+		88D911781A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTFetchedResultsTableViewDataSource.m; sourceTree = "<group>"; };
+		88D911791A7755E500520FB6 /* RSTTableViewArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTTableViewArrayDataSource.h; sourceTree = "<group>"; };
+		88D9117A1A7755E500520FB6 /* RSTTableViewArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTTableViewArrayDataSource.m; sourceTree = "<group>"; };
+		88D9117B1A7755E500520FB6 /* RSTTableViewCellDequeuing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTTableViewCellDequeuing.h; sourceTree = "<group>"; };
+		88D9117C1A7755E500520FB6 /* RSTTableViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTTableViewCellFactory.h; sourceTree = "<group>"; };
+		88D9117D1A7755E500520FB6 /* RSTTableViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTTableViewCellFactory.m; sourceTree = "<group>"; };
 		B763ECBCC00A2C5E8C2F04FA /* Pods-RSTDataSourceKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSTDataSourceKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSTDataSourceKitTests/Pods-RSTDataSourceKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +125,22 @@
 		88D911231A774B2300520FB6 /* RSTDataSourceKit */ = {
 			isa = PBXGroup;
 			children = (
+				88D9116F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h */,
+				88D911701A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m */,
+				88D911711A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h */,
+				88D911721A7755E500520FB6 /* RSTCollectionViewCellFactory.h */,
+				88D911731A7755E500520FB6 /* RSTCollectionViewCellFactory.m */,
+				88D911741A7755E500520FB6 /* RSTDataSourceBlocks.h */,
 				88D911261A774B2300520FB6 /* RSTDataSourceKit.h */,
+				88D911751A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.h */,
+				88D911761A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.m */,
+				88D911771A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.h */,
+				88D911781A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.m */,
+				88D911791A7755E500520FB6 /* RSTTableViewArrayDataSource.h */,
+				88D9117A1A7755E500520FB6 /* RSTTableViewArrayDataSource.m */,
+				88D9117B1A7755E500520FB6 /* RSTTableViewCellDequeuing.h */,
+				88D9117C1A7755E500520FB6 /* RSTTableViewCellFactory.h */,
+				88D9117D1A7755E500520FB6 /* RSTTableViewCellFactory.m */,
 				88D911241A774B2300520FB6 /* Supporting Files */,
 			);
 			path = RSTDataSourceKit;
@@ -133,7 +178,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D911861A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.h in Headers */,
+				88D9118A1A7755E500520FB6 /* RSTTableViewCellDequeuing.h in Headers */,
+				88D911881A7755E500520FB6 /* RSTTableViewArrayDataSource.h in Headers */,
+				88D911811A7755E500520FB6 /* RSTCollectionViewCellFactory.h in Headers */,
+				88D911831A7755E500520FB6 /* RSTDataSourceBlocks.h in Headers */,
+				88D911801A7755E500520FB6 /* RSTCollectionViewCellDequeuing.h in Headers */,
+				88D9117E1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.h in Headers */,
+				88D911841A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.h in Headers */,
 				88D911271A774B2300520FB6 /* RSTDataSourceKit.h in Headers */,
+				88D9118B1A7755E500520FB6 /* RSTTableViewCellFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D9117F1A7755E500520FB6 /* RSTCollectionViewArrayDataSource.m in Sources */,
+				88D911891A7755E500520FB6 /* RSTTableViewArrayDataSource.m in Sources */,
+				88D9118C1A7755E500520FB6 /* RSTTableViewCellFactory.m in Sources */,
+				88D911871A7755E500520FB6 /* RSTFetchedResultsTableViewDataSource.m in Sources */,
+				88D911851A7755E500520FB6 /* RSTFetchedResultsControllerDelegate.m in Sources */,
+				88D911821A7755E500520FB6 /* RSTCollectionViewCellFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
