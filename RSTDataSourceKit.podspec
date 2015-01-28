@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
 	s.source	= { :git => 'https://github.com/rosettastone/RSTDataSourceKit.git', :tag => s.version.to_s }
 	s.platform  	= :ios, '8.0'
 	s.source_files  = 'RSTDataSourceKit/RSTDataSourceKit/*.{h,m}'
-	s.frameworks	= 'UIKit', 'Foundation'
+	s.frameworks	= 'UIKit', 'Foundation', 'CoreData'
 	s.requires_arc	= true
 end
