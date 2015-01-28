@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323A05E11A7877DD00A7147E /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 323A05E01A7877DD00A7147E /* ViewModel.m */; };
 		88D9114C1A774E6500520FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9114B1A774E6500520FB6 /* main.m */; };
 		88D9114F1A774E6500520FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9114E1A774E6500520FB6 /* AppDelegate.m */; };
 		88D911521A774E6500520FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911511A774E6500520FB6 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		28741B40672A5DE7EA525390 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		323A05DF1A7877DD00A7147E /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		323A05E01A7877DD00A7147E /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		88D911461A774E6500520FB6 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D9114A1A774E6500520FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D9114B1A774E6500520FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				88D911991A775C7500520FB6 /* TableViewController.m */,
 				88D911501A774E6500520FB6 /* ViewController.h */,
 				88D911511A774E6500520FB6 /* ViewController.m */,
+				323A05DF1A7877DD00A7147E /* ViewModel.h */,
+				323A05E01A7877DD00A7147E /* ViewModel.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323A05E11A7877DD00A7147E /* ViewModel.m in Sources */,
 				88D911521A774E6500520FB6 /* ViewController.m in Sources */,
 				88D9114F1A774E6500520FB6 /* AppDelegate.m in Sources */,
 				88D9114C1A774E6500520FB6 /* main.m in Sources */,

@@ -16,17 +16,14 @@
 //  Released under a BSD license: http://opensource.org/licenses/BSD-3-Clause
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import <RSTDataSourceKit/RSTDataSourceKit.h>
+@interface ViewModel : NSObject
 
-#import "ViewModel.h"
+@property (nonatomic, readonly) NSString *title;
 
-@interface TableViewController : UIViewController
+@property (nonatomic, readonly) NSString *subtitle;
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-
-@property (strong, nonatomic) RSTTableViewArrayDataSource *dataSource;
-
+- (instancetype)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle;
 
 @end

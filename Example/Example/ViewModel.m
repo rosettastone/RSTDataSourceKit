@@ -16,17 +16,23 @@
 //  Released under a BSD license: http://opensource.org/licenses/BSD-3-Clause
 //
 
-#import <UIKit/UIKit.h>
-
-#import <RSTDataSourceKit/RSTDataSourceKit.h>
-
 #import "ViewModel.h"
 
-@interface TableViewController : UIViewController
+@implementation ViewModel
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+- (instancetype)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle
+{
+    self = [super init];
+    if (self) {
+        _title = [title copy];
+        _subtitle = [subtitle copy];
+    }
+    return self;
+}
 
-@property (strong, nonatomic) RSTTableViewArrayDataSource *dataSource;
-
+- (instancetype)init
+{
+    return [self initWithTitle:@"The Title" subtitle:@"Some subtitle"];
+}
 
 @end

@@ -18,6 +18,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import <RSTDataSourceKit/RSTDataSourceKit.h>
+
+#import "ViewModel.h"
+
 @interface CollectionViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
