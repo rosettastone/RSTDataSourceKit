@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RSTDataSourceKit: 92ad297e6e37c2ed395db33e9231657f8c46eee9
+  RSTDataSourceKit: aafe85359e9f5eb565f88a84cf7286de1409437e
 
 COCOAPODS: 0.35.0
