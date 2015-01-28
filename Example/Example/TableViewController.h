@@ -20,4 +20,6 @@
 
 @interface TableViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @end

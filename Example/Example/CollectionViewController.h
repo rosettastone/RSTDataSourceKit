@@ -20,4 +20,6 @@
 
 @interface CollectionViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
 @end
