@@ -24,11 +24,11 @@
 
 #import "ViewModel.h"
 
+#import "TableViewCell.h"
+
 @interface TableViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
-@property (strong, nonatomic) ViewModelFactory *factory;
 
 @property (strong, nonatomic) RSTTableViewArrayDataSource *dataSource;
 

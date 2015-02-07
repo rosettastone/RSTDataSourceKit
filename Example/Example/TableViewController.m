@@ -18,22 +18,21 @@
 
 #import "TableViewController.h"
 
-#import "TableViewCell.h"
-
-
 @implementation TableViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil] forCellReuseIdentifier:@"tableViewCell"];
+    NSString *cellId = @"tableViewCell";
 
-    self.factory = [ViewModelFactory new];
-    NSArray *viewModels = [self.factory viewModels];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil] forCellReuseIdentifier:cellId];
+
+    ViewModelFactory *factory = [ViewModelFactory new];
+    NSArray *viewModels = [factory viewModels];
     
     RSTTableViewCellFactory *cellFactory = [[RSTTableViewCellFactory alloc] initWithCellDequeuingBlock:^UITableViewCell *(UITableView *tableView, id item, NSIndexPath *indexPath) {
-        return [tableView dequeueReusableCellWithIdentifier:@"tableViewCell" forIndexPath:indexPath];
+        return [tableView dequeueReusableCellWithIdentifier:cellId forIndexPath:indexPath];
     }];
 
     self.dataSource = [[RSTTableViewArrayDataSource alloc] initWithItems:viewModels
