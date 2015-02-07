@@ -26,7 +26,8 @@
 
     NSString *cellId = @"tableViewCell";
 
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil] forCellReuseIdentifier:cellId];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil]
+         forCellReuseIdentifier:cellId];
 
     ViewModelFactory *factory = [ViewModelFactory new];
     NSArray *viewModels = [factory viewModels];
@@ -40,8 +41,11 @@
                                                   cellConfigurationBlock:^(UITableView *tableView, UITableViewCell *cell, id item, NSIndexPath *indexPath) {
 
                                                       ViewModel *viewModel = (ViewModel *)item;
-                                                      cell.textLabel.text = viewModel.title;
-                                                      cell.detailTextLabel.text = viewModel.subtitle;
+                                                      TableViewCell *customCell = (TableViewCell *)cell;
+
+                                                      customCell.textLabel.text = viewModel.title;
+                                                      customCell.detailTextLabel.text = viewModel.subtitle;
+
                                                   }];
 
     self.tableView.dataSource = self.dataSource;

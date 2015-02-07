@@ -23,6 +23,32 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    NSString *cellId = @"collectionViewCell";
+
+    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CollectionViewCell class]) bundle:nil]
+          forCellWithReuseIdentifier:cellId];
+
+    ViewModelFactory *factory = [ViewModelFactory new];
+    NSArray *viewModels = [factory viewModels];
+
+    RSTCollectionViewCellFactory *cellFactory = [[RSTCollectionViewCellFactory alloc] initWithCellDequeuingBlock:^UICollectionViewCell *(UICollectionView *collectionView, id item, NSIndexPath *indexPath) {
+        return [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    }];
+
+    self.dataSource = [[RSTCollectionViewArrayDataSource alloc] initWithItems:viewModels
+                                                                  cellFactory:cellFactory
+                                                       cellConfigurationBlock:^(UICollectionView *collectionView, UICollectionViewCell *cell, id item, NSIndexPath *indexPath) {
+
+                                                           ViewModel *viewModel = (ViewModel *)item;
+                                                           CollectionViewCell *customCell = (CollectionViewCell *)cell;
+
+                                                           customCell.textLabel.text = viewModel.title;
+                                                           customCell.detailTextLabel.text = viewModel.subtitle;
+
+                                                       }];
+
+    self.collectionView.dataSource = self.dataSource;
 }
 
 @end

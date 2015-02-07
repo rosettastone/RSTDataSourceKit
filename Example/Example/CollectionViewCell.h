@@ -20,4 +20,8 @@
 
 @interface CollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *detailTextLabel;
+
 @end

@@ -22,8 +22,15 @@
 
 #import "ViewModel.h"
 
+#import "ViewModelFactory.h"
+
+#import "CollectionViewCell.h"
+
+
 @interface CollectionViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
+@property (strong, nonatomic) RSTCollectionViewArrayDataSource *dataSource;
 
 @end
