@@ -12,6 +12,7 @@
 		88C7AE001A85AB8300220A56 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C7ADFF1A85AB8300220A56 /* CollectionViewCell.m */; };
 		88C7AE021A85ABC300220A56 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C7AE011A85ABC300220A56 /* TableViewCell.xib */; };
 		88C7AE041A85ABCF00220A56 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C7AE031A85ABCF00220A56 /* CollectionViewCell.xib */; };
+		88C7AE071A85ACD100220A56 /* ViewModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C7AE061A85ACD100220A56 /* ViewModelFactory.m */; };
 		88D9114C1A774E6500520FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9114B1A774E6500520FB6 /* main.m */; };
 		88D9114F1A774E6500520FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D9114E1A774E6500520FB6 /* AppDelegate.m */; };
 		88D911521A774E6500520FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D911511A774E6500520FB6 /* ViewController.m */; };
@@ -33,6 +34,8 @@
 		88C7ADFF1A85AB8300220A56 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		88C7AE011A85ABC300220A56 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		88C7AE031A85ABCF00220A56 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		88C7AE051A85ACD100220A56 /* ViewModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelFactory.h; sourceTree = "<group>"; };
+		88C7AE061A85ACD100220A56 /* ViewModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelFactory.m; sourceTree = "<group>"; };
 		88D911461A774E6500520FB6 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D9114A1A774E6500520FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D9114B1A774E6500520FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				88D911511A774E6500520FB6 /* ViewController.m */,
 				323A05DF1A7877DD00A7147E /* ViewModel.h */,
 				323A05E01A7877DD00A7147E /* ViewModel.m */,
+				88C7AE051A85ACD100220A56 /* ViewModelFactory.h */,
+				88C7AE061A85ACD100220A56 /* ViewModelFactory.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 				323A05E11A7877DD00A7147E /* ViewModel.m in Sources */,
 				88D911521A774E6500520FB6 /* ViewController.m in Sources */,
 				88D9114F1A774E6500520FB6 /* AppDelegate.m in Sources */,
+				88C7AE071A85ACD100220A56 /* ViewModelFactory.m in Sources */,
 				88D9114C1A774E6500520FB6 /* main.m in Sources */,
 				88D9119D1A775C8800520FB6 /* CollectionViewController.m in Sources */,
 				88C7AE001A85AB8300220A56 /* CollectionViewCell.m in Sources */,

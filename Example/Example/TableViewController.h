@@ -20,13 +20,16 @@
 
 #import <RSTDataSourceKit/RSTDataSourceKit.h>
 
+#import "ViewModelFactory.h"
+
 #import "ViewModel.h"
 
 @interface TableViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-@property (strong, nonatomic) RSTTableViewArrayDataSource *dataSource;
+@property (strong, nonatomic) ViewModelFactory *factory;
 
+@property (strong, nonatomic) RSTTableViewArrayDataSource *dataSource;
 
 @end

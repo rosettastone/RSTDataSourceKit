@@ -29,8 +29,9 @@
 
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil] forCellReuseIdentifier:@"tableViewCell"];
 
-    NSArray *viewModels = @[ [ViewModel new], [ViewModel new], [ViewModel new], [ViewModel new], [ViewModel new] ];
-
+    self.factory = [ViewModelFactory new];
+    NSArray *viewModels = [self.factory viewModels];
+    
     RSTTableViewCellFactory *cellFactory = [[RSTTableViewCellFactory alloc] initWithCellDequeuingBlock:^UITableViewCell *(UITableView *tableView, id item, NSIndexPath *indexPath) {
         return [tableView dequeueReusableCellWithIdentifier:@"tableViewCell" forIndexPath:indexPath];
     }];
