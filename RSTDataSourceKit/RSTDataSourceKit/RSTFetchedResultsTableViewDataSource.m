@@ -32,25 +32,18 @@
 
 #pragma mark - Init
 
-- (instancetype)initWithFetchRequest:(NSFetchRequest *)fetchRequest
-                managedObjectContext:(NSManagedObjectContext *)managedObjectContext
-                  sectionNameKeyPath:(NSString *)sectionNameKeyPath
-                           cacheName:(NSString *)cacheName
-                 cellReuseIdentifier:(NSString *)cellReuseIdentifier
-              cellConfigurationBlock:(RSTTableViewCellConfigurationBlock)cellConfigurationBlock
-                            delegate:(RSTFetchedResultsControllerDelegate *)delegate
+- (instancetype)initWithFetchedResultsController:(NSFetchedResultsController *)fetchedResultsController
+                             cellReuseIdentifier:(NSString *)cellReuseIdentifier
+                          cellConfigurationBlock:(RSTTableViewCellConfigurationBlock)cellConfigurationBlock
+                                        delegate:(RSTFetchedResultsControllerDelegate *)delegate
 {
-    NSParameterAssert(fetchRequest != nil);
-    NSParameterAssert(managedObjectContext != nil);
+    NSParameterAssert(fetchedResultsController != nil);
     NSParameterAssert(cellReuseIdentifier != nil);
     NSParameterAssert(cellConfigurationBlock != nil);
-    
+
     self = [super init];
     if (self) {
-        _fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
-                                                                        managedObjectContext:managedObjectContext
-                                                                          sectionNameKeyPath:sectionNameKeyPath
-                                                                                   cacheName:cacheName];
+        _fetchedResultsController = fetchedResultsController;
         _fetchedResultsController.delegate = delegate;
         _cellReuseIdentifier = [cellReuseIdentifier copy];
         _cellConfigurationBlock = [cellConfigurationBlock copy];

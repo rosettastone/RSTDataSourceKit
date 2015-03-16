@@ -31,13 +31,10 @@
 
 @property (nonatomic, copy, readonly) NSString *cellReuseIdentifier;
 
-- (instancetype)initWithFetchRequest:(NSFetchRequest *)fetchRequest
-                managedObjectContext:(NSManagedObjectContext *)managedObjectContext
-                  sectionNameKeyPath:(NSString *)sectionNameKeyPath
-                           cacheName:(NSString *)cacheName
-                 cellReuseIdentifier:(NSString *)cellReuseIdentifier
-              cellConfigurationBlock:(RSTTableViewCellConfigurationBlock)cellConfigurationBlock
-                            delegate:(RSTFetchedResultsControllerDelegate *)delegate NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithFetchedResultsController:(NSFetchedResultsController *)fetchedResultsController
+                             cellReuseIdentifier:(NSString *)cellReuseIdentifier
+                          cellConfigurationBlock:(RSTTableViewCellConfigurationBlock)cellConfigurationBlock
+                                        delegate:(RSTFetchedResultsControllerDelegate *)delegate NS_DESIGNATED_INITIALIZER;
 
 - (id)init NS_UNAVAILABLE;
 
