@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   RSTDataSourceKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  RSTDataSourceKit: aafe85359e9f5eb565f88a84cf7286de1409437e
+  RSTDataSourceKit: 279658748dd8f49e64d2424d4972fc266b3ab254
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.3
