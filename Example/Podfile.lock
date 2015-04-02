@@ -1,5 +1,5 @@
 PODS:
-  - RSTDataSourceKit (1.0.0)
+  - RSTDataSourceKit (0.1)
 
 DEPENDENCIES:
   - RSTDataSourceKit (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RSTDataSourceKit: 279658748dd8f49e64d2424d4972fc266b3ab254
+  RSTDataSourceKit: 95d7d9651ed50b37f590fc5a504f6037ed5525f7
 
 COCOAPODS: 0.36.3
