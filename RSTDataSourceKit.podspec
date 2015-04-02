@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name		= 'RSTDataSourceKit'
-	s.version	= '1.0.0'
+	s.version	= '0.1'
 	s.summary	= 'Data source objects that keep your view controllers light'
 	s.homepage	= 'https://github.com/rosettastone/RSTDataSourceKit'
 	s.license	= 'BSD 3.0'
