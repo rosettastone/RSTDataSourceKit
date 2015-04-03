@@ -1,4 +1,6 @@
 # RSTDataSourceKit
+[![Build Status](https://travis-ci.org/rosettastone/RSTDataSourceKit.svg)](https://travis-ci.org/rosettastone/RSTDataSourceKit) [![license BSD](http://img.shields.io/badge/license-BSD-orange.png)][bsdLink]
+
 *Data source objects that keep your view controllers light*
 
 ## About
