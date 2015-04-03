@@ -1,0 +1,9 @@
+language: objective-c
+
+before_install: 
+- brew update
+- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+- ./podinstall.sh 
+
+script: 
+- xctool clean build test -workspace RSTDataSourceKit.xcworkspace -scheme RSTDataSourceKit -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=NO
